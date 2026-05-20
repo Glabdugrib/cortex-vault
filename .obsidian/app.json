@@ -1,0 +1,16 @@
+{
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "livePreview": true,
+  "showUnsupportedFiles": true,
+  "defaultViewMode": "preview",
+  "promptDelete": true,
+  "strictLineBreaks": true,
+  "showLineNumber": false,
+  "openBehavior": "daily",
+  "showInlineTitle": false,
+  "readableLineLength": true,
+  "attachmentFolderPath": "_attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Triage"
+}
