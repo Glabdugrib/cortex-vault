@@ -2,5 +2,6 @@
   "obsidian-tasks-plugin",
   "dataview",
   "colored-text",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]
