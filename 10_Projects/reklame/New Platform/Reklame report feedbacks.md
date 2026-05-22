@@ -68,7 +68,7 @@ DONE - Aggiungere campo opzionale Offer in Report Affiliate
 ---
 ### 9. Scrollbar orizzontale
 
-TODO
+DONE
 
 ### 10. Goals non calcolati
 
