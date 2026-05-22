@@ -69,3 +69,119 @@ DONE - Aggiungere campo opzionale Offer in Report Affiliate
 ### 9. Scrollbar orizzontale
 
 TODO
+
+### 10. Goals non calcolati
+
+Chiamata
+```bash
+curl -X 'GET' \ 'http://localhost:3000/v2/reports/offers?startDate=2025-02-01&endDate=2025-02-28&periodAggregation=year&includePlanningsWithoutStats=true&sortBy=%2Bname%2C-createdAt&optionalFields=offerFile&optionalFields=advertiser&offerIds=6800&offerIds=7163&offerIds=7380&offerFileIds=65278&page=1&limit=50' \ -H 'accept: application/json' \ -H 'x-auth: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjI1LCJpbnN0YWxsYXRpb25faWRfc2ciOjIsImxhbmciOiJpdCIsImlhdCI6MTc3NTYzODk3MCwiZXhwIjo5OTk5OTk5OTk5fQ.o__H4-G9gkIO2oybqTuo8LW0jeUwSDDfBiHzbgNFDWsyDdx7wOixkTTrADA5mKbYWq45SIke3LFU7JSOZGrDtp_81ES3yESjlT5UCX4ng30A0cgOAa1YwBKh-Ym57Yerq8rQDSGyrWt92Iaup25exhJUQEcPX8g9WReGjuT-XBFzCp8BXz7XVUEkKQbSFBYZww_VC5WfM7madhaSXnAopRqZCpE0_VMN1kJArHgzsiCUkQWK8wisRzbZ6kq6R9_GwM4-Fr87RWqOitoZNSOFWTzyyHzkgcKDsNlV64y8pOY9mEf3UqICRv3PQs0G9z-wt2E17F7UqEZEUq5Mny5Gqw'
+```
+
+Request
+```
+{
+   "meta":{
+      "total":1,
+      "page":1,
+      "limit":50,
+      "totalPages":1
+   },
+   "data":[
+      {
+         "clicks":8202,
+         "conversions":256,
+         "cr":0.031212,
+         "ctr":0.010741,
+         "ecpmAdvertiser":0.7067397109967477,
+         "ecpmAffiliate":0.3979757017820499,
+         "impressions":763581,
+         "margin":1767.2,
+         "or":0.13341236471263473,
+         "payout":2277.8,
+         "year":2025,
+         "revenue":4045,
+         "volume":5723465,
+         "sales":0,
+         "goals":[
+            {
+               "id":"0",
+               "name":"CPL altre città",
+               "offerId":"7163",
+               "offerFileId":"65278",
+               "advertiserId":"1526",
+               "conversions":160,
+               "cr":0.019507,
+               "year":2025,
+               "key":"7163-65278-1526--2025"
+            },
+            {
+               "id":"2192",
+               "name":"CPL Bergamo e Genova Città",
+               "offerId":"7163",
+               "offerFileId":"65278",
+               "advertiserId":"1526",
+               "conversions":5,
+               "cr":0,
+               "year":2025,
+               "key":"7163-65278-1526--2025"
+            },
+            {
+               "id":"2181",
+               "name":"CPL Zone Partner",
+               "offerId":"7163",
+               "offerFileId":"65278",
+               "advertiserId":"1526",
+               "conversions":20,
+               "cr":0,
+               "year":2025,
+               "key":"7163-65278-1526--2025"
+            },
+            {
+               "id":"2180",
+               "name":"CPL Napoli Città",
+               "offerId":"7163",
+               "offerFileId":"65278",
+               "advertiserId":"1526",
+               "conversions":22,
+               "cr":0,
+               "year":2025,
+               "key":"7163-65278-1526--2025"
+            },
+            {
+               "id":"2045",
+               "name":"CPL Milano città",
+               "offerId":"7163",
+               "offerFileId":"65278",
+               "advertiserId":"1526",
+               "conversions":49,
+               "cr":0,
+               "year":2025,
+               "key":"7163-65278-1526--2025"
+            }
+         ],
+         "offerId":7163,
+         "offer":"Realhizza NEW | Geotarget - Italia (7163)",
+         "offerFileId":65278,
+         "offerFile":"Termosifone - dal 04.01 - NON UTILIZZARE (65278)",
+         "advertiser":"Homepanda Srl (1526)",
+         "advertiserId":1526
+      }
+   ],
+   "totals":{
+      "clicks":8202,
+      "conversions":256,
+      "cr":0.0312119,
+      "ctr":0.01074149,
+      "ecpmAdvertiser":0.7067397109967477,
+      "ecpmAffiliate":0.3979757017820499,
+      "impressions":763581,
+      "margin":1767.2,
+      "or":0.13341236471263473,
+      "payout":2277.8,
+      "revenue":4045,
+      "volume":5723465,
+      "sales":0
+   }
+}
+```
+
