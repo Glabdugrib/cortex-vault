@@ -77,8 +77,8 @@ Chiamata
 curl -X 'GET' \ 'http://localhost:3000/v2/reports/offers?startDate=2025-02-01&endDate=2025-02-28&periodAggregation=year&includePlanningsWithoutStats=true&sortBy=%2Bname%2C-createdAt&optionalFields=offerFile&optionalFields=advertiser&offerIds=6800&offerIds=7163&offerIds=7380&offerFileIds=65278&page=1&limit=50' \ -H 'accept: application/json' \ -H 'x-auth: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjI1LCJpbnN0YWxsYXRpb25faWRfc2ciOjIsImxhbmciOiJpdCIsImlhdCI6MTc3NTYzODk3MCwiZXhwIjo5OTk5OTk5OTk5fQ.o__H4-G9gkIO2oybqTuo8LW0jeUwSDDfBiHzbgNFDWsyDdx7wOixkTTrADA5mKbYWq45SIke3LFU7JSOZGrDtp_81ES3yESjlT5UCX4ng30A0cgOAa1YwBKh-Ym57Yerq8rQDSGyrWt92Iaup25exhJUQEcPX8g9WReGjuT-XBFzCp8BXz7XVUEkKQbSFBYZww_VC5WfM7madhaSXnAopRqZCpE0_VMN1kJArHgzsiCUkQWK8wisRzbZ6kq6R9_GwM4-Fr87RWqOitoZNSOFWTzyyHzkgcKDsNlV64y8pOY9mEf3UqICRv3PQs0G9z-wt2E17F7UqEZEUq5Mny5Gqw'
 ```
 
-Request
-```
+Response
+```json
 {
    "meta":{
       "total":1,
@@ -185,3 +185,168 @@ Request
 }
 ```
 
+Chiamata Tune
+```bash
+curl https://reklame.api.hasoffers.com/Apiv3/json?NetworkToken=NETLfJOxbbKEdGyWsFayvQpLsyQllP&Target=Report&Method=getStats&fields[]=Stat.advertiser_id&fields[]=Advertiser.company&fields[]=OfferFile.display&fields[]=Stat.offer_file_id&fields[]=Stat.year&fields[]=Goal.name&fields[]=Stat.goal_id&fields[]=Stat.offer_id&fields[]=Stat.ltr&fields[]=Stat.conversions&filters[Stat.offer_file_id][conditional]=EQUAL_TO&filters[Stat.offer_file_id][values]=65278&filters[Stat.offer_id][conditional]=EQUAL_TO&filters[Stat.offer_id][values]=7163&filters[Stat.date][conditional]=BETWEEN&filters[Stat.date][values][]=2025-02-01&filters[Stat.date][values][]=2025-03-28&limit=1000&page=1&totals=0
+```
+
+Response Tune
+```json
+{
+  "request": {
+    "Target": "Report",
+    "Format": "json",
+    "Service": "HasOffers",
+    "Version": "2",
+    "NetworkToken": "NETLfJOxbbKEdGyWsFayvQpLsyQllP",
+    "Method": "getStats",
+    "fields": [
+      "Stat.advertiser_id",
+      "Advertiser.company",
+      "OfferFile.display",
+      "Stat.offer_file_id",
+      "Stat.year",
+      "Goal.name",
+      "Stat.goal_id",
+      "Stat.offer_id",
+      "Stat.ltr",
+      "Stat.conversions"
+    ],
+    "filters": {
+      "Stat.offer_file_id": {
+        "conditional": "EQUAL_TO",
+        "values": "65278"
+      },
+      "Stat.offer_id": {
+        "conditional": "EQUAL_TO",
+        "values": "7163"
+      },
+      "Stat.date": {
+        "conditional": "BETWEEN",
+        "values": [
+          "2025-02-01",
+          "2025-03-28"
+        ]
+      }
+    },
+    "limit": "1000",
+    "page": "1",
+    "totals": "0",
+    "_": "1779439436563"
+  },
+  "response": {
+    "status": 1,
+    "httpStatus": 200,
+    "data": {
+      "page": 1,
+      "current": 1000,
+      "count": 5,
+      "pageCount": 1,
+      "data": [
+        {
+          "Stat": {
+            "advertiser_id": "1526",
+            "offer_file_id": "65278",
+            "year": "2025",
+            "goal_id": "2192",
+            "offer_id": "7163",
+            "ltr": "0.00000",
+            "conversions": "6"
+          },
+          "Advertiser": {
+            "company": "Homepanda Srl (1526)"
+          },
+          "OfferFile": {
+            "display": "Termosifone - dal 04.01 - NON UTILIZZARE"
+          },
+          "Goal": {
+            "name": "CPL Bergamo e Genova Città"
+          }
+        },
+        {
+          "Stat": {
+            "advertiser_id": "1526",
+            "offer_file_id": "65278",
+            "year": "2025",
+            "goal_id": "2045",
+            "offer_id": "7163",
+            "ltr": "0.00000",
+            "conversions": "68"
+          },
+          "Advertiser": {
+            "company": "Homepanda Srl (1526)"
+          },
+          "OfferFile": {
+            "display": "Termosifone - dal 04.01 - NON UTILIZZARE"
+          },
+          "Goal": {
+            "name": "CPL Milano città"
+          }
+        },
+        {
+          "Stat": {
+            "advertiser_id": "1526",
+            "offer_file_id": "65278",
+            "year": "2025",
+            "goal_id": "2180",
+            "offer_id": "7163",
+            "ltr": "0.00000",
+            "conversions": "27"
+          },
+          "Advertiser": {
+            "company": "Homepanda Srl (1526)"
+          },
+          "OfferFile": {
+            "display": "Termosifone - dal 04.01 - NON UTILIZZARE"
+          },
+          "Goal": {
+            "name": "CPL Napoli Città"
+          }
+        },
+        {
+          "Stat": {
+            "advertiser_id": "1526",
+            "offer_file_id": "65278",
+            "year": "2025",
+            "goal_id": "2181",
+            "offer_id": "7163",
+            "ltr": "0.00000",
+            "conversions": "20"
+          },
+          "Advertiser": {
+            "company": "Homepanda Srl (1526)"
+          },
+          "OfferFile": {
+            "display": "Termosifone - dal 04.01 - NON UTILIZZARE"
+          },
+          "Goal": {
+            "name": "CPL Zone Partner"
+          }
+        },
+        {
+          "Stat": {
+            "advertiser_id": "1526",
+            "offer_file_id": "65278",
+            "year": "2025",
+            "goal_id": "0",
+            "offer_id": "7163",
+            "ltr": "1.92820",
+            "conversions": "197"
+          },
+          "Advertiser": {
+            "company": "Homepanda Srl (1526)"
+          },
+          "OfferFile": {
+            "display": "Termosifone - dal 04.01 - NON UTILIZZARE"
+          },
+          "Goal": {
+            "name": "CPL altre città"
+          }
+        }
+      ]
+    },
+    "errors": [],
+    "errorMessage": null
+  }
+}
+```
