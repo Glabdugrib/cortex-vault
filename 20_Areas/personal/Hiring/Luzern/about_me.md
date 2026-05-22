@@ -9,7 +9,7 @@ Across these experiences I've worked with <strong style="color:rgb(255, 192, 0)"
 
 My approach to code is <strong style="color:rgb(255, 192, 0)">product-first</strong>, which for me means that technical decisions needs to serve the product, not the other way around. Within that, I care a lot about modularity, scalability and maintainability and I commonly apply principles like SOLID, DRY and DI to improve <strong style="color:rgb(255, 192, 0)">code's quality and testability</strong>.
 
-I am used to handle the whole <strong style="color:rgb(255, 192, 0)">Software Development Life Cycle</strong>: writing PRs and documentation and working on CI pipelines to improve automation.
+I am also used to handle the whole <strong style="color:rgb(255, 192, 0)">Software Development Life Cycle</strong>: writing PRs and documentation and working on CI pipelines to improve automation.
 
 <strong style="color:rgb(255, 192, 0)">What I'm looking for</strong> is a product with real complexity, where I can own things properly and not just execute tickets and where I can continue to improve myself. That's what I've been doing in my current role, and it's the kind of environment where I do my best.
 
