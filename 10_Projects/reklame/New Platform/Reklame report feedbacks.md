@@ -187,7 +187,26 @@ Response
 
 Chiamata Tune
 ```bash
-curl https://reklame.api.hasoffers.com/Apiv3/json?NetworkToken=NETLfJOxbbKEdGyWsFayvQpLsyQllP&Target=Report&Method=getStats&fields[]=Stat.advertiser_id&fields[]=Advertiser.company&fields[]=OfferFile.display&fields[]=Stat.offer_file_id&fields[]=Stat.year&fields[]=Goal.name&fields[]=Stat.goal_id&fields[]=Stat.offer_id&fields[]=Stat.ltr&fields[]=Stat.conversions&filters[Stat.offer_file_id][conditional]=EQUAL_TO&filters[Stat.offer_file_id][values]=65278&filters[Stat.offer_id][conditional]=EQUAL_TO&filters[Stat.offer_id][values]=7163&filters[Stat.date][conditional]=BETWEEN&filters[Stat.date][values][]=2025-02-01&filters[Stat.date][values][]=2025-03-28&limit=1000&page=1&totals=0
+curl https://reklame.api.hasoffers.com/Apiv3/json?NetworkToken=NETLfJOxbbKEdGyWsFayvQpLsyQllP&Target=Report&Method=getStats&
+fields[]=Stat.advertiser_id
+&fields[]=Advertiser.company
+&fields[]=OfferFile.display
+&fields[]=Stat.offer_file_id
+&fields[]=Stat.year
+&fields[]=Goal.name
+&fields[]=Stat.goal_id
+&fields[]=Stat.offer_id
+&fields[]=Stat.ltr
+&fields[]=Stat.conversions
+&filters[Stat.offer_file_id][conditional]=EQUAL_TO
+&filters[Stat.offer_file_id][values]=65278
+&filters[Stat.offer_id][conditional]=EQUAL_TO
+&filters[Stat.offer_id][values]=7163
+&filters[Stat.date][conditional]=BETWEEN
+&filters[Stat.date][values][]=2025-02-01
+&filters[Stat.date][values][]=2025-03-28
+&limit=1000&page=1
+&totals=0
 ```
 
 Response Tune
