@@ -350,3 +350,10 @@ Response Tune
   }
 }
 ```
+
+---
+
+## Nuovi feedbacks
+
+5- Toggle "Includi Plannings Senza Statistiche": ripeto che il toggle è stato sviluppato come da requisiti (vedi email 18 marzo). Detto questo, è possibile aggiungere un altro toggle per nascondere le righe con volume a 0 (faccio presente che sarà possibile farlo solo prima della generazione).
+7- Specificare meglio qual è il bug e qual è il comportamento atteso. Cosa significa 
