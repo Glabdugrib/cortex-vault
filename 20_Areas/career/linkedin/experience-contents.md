@@ -1,3 +1,5 @@
+# Linkedin Experience - Contents
+
 Full-Stack DeveloperFull-Stack Developer
 
 Contents.comContents.comJul 2023 - Apr 2024 · 10 mosJul 2023 to Apr 2024 · 10 mosMilano, Lombardia, Italia · HybridMilano, Lombardia, Italia · Hybrid](https://www.linkedin.com/in/simone-sada/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAADsNno0BHTh61GbgnNG3sM70YMgYMVSOKx4%2C2253445727%29&trackingId=rogNidM%2BRcGN4uJqx4ui1g%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN)

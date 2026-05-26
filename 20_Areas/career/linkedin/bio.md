@@ -1,3 +1,5 @@
+# Linkedin Bio
+
 I build products 𝐞𝐧𝐝-𝐭𝐨-𝐞𝐧𝐝, take ownership of results, and leave the codebase better than I found it.  
   
 Over the past 5+ 𝐲𝐞𝐚𝐫𝐬 I've worked as a full-stack engineer across consulting, scale-up SaaS, and web agency environments working across frontend, backend, and infrastructure. I think in terms of product and 𝐮𝐬𝐞𝐫 𝐢𝐦𝐩𝐚𝐜𝐭, not just technical correctness.  

@@ -5,7 +5,6 @@
 Un'associazione di volontariato gestiva le prenotazioni della propria ludoteca tramite fogli Excel sparsi su Google Sheets: overbooking, conflitti tra volontari, zero visibilita sui posti disponibili. Serviva un sistema che rendesse la gestione autonoma, in tempo reale, e a costo zero infrastrutturale.
 
 ---
-
 ## The Context
 
 - **Chi aveva il problema** — Un'associazione no-profit che gestisce una ludoteca reale, con volontari che coordinano sale, tavoli e fasce orarie
@@ -13,7 +12,6 @@ Un'associazione di volontariato gestiva le prenotazioni della propria ludoteca t
 - **Perche costruirlo** — Eliminare la gestione manuale caotica; dare visibilita immediata sulla disponibilita sia allo staff che ai giocatori
 
 ---
-
 ## The Users
 
 - **Staff/volontari** — Configurano le sale (tavoli, posti, fasce orarie), generano le disponibilita per date specifiche, gestiscono le prenotazioni
@@ -21,7 +19,6 @@ Un'associazione di volontariato gestiva le prenotazioni della propria ludoteca t
 - **Vincoli** — Interfaccia semplice e immediata; nessun login richiesto (al momento); supporto multi-lingua (IT/EN)
 
 ---
-
 ## The Solution — Overview
 
 - **Cosa fa** — Applicazione web che permette di visualizzare e prenotare posti ai tavoli di una ludoteca, organizzati per sala, data e fascia oraria (mattina/pomeriggio/sera)
@@ -29,7 +26,6 @@ Un'associazione di volontariato gestiva le prenotazioni della propria ludoteca t
 - **Flusso principale** — L'utente seleziona una data → visualizza la griglia sale/fasce/tavoli → clicca su uno slot libero → aggiunge il proprio nome come partecipante
 
 ---
-
 ## Under the Hood — Implementation
 
 ### Architecture
