@@ -1,3 +1,5 @@
+
+# AI Mastery Study Plan
 ## Phase 1 — Foundations
 
 ### 1. The AI Landscape

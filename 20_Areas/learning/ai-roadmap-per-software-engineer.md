@@ -1,3 +1,5 @@
+# AI Roadmap per Software Engineer
+
 Roadmap pragmatica per comprendere e usare strumenti AI/LLM nel workflow quotidiano, con enfasi su applicazioni pratiche e conoscenze teoriche essenziali.
 
 ---

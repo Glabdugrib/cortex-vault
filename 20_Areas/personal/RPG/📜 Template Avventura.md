@@ -1,3 +1,5 @@
+# Template Avventura
+
 ## 1. Premessa
     
 - **Tema/Tono dominante**: (epico, oscuro, comico, tragico, fiabesco, ecc.)

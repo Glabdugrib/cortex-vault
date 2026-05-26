@@ -1,3 +1,5 @@
+# Article Template
+
 Title: [Insert Title Here]
 
 Abstract/Introduction:
