@@ -1,10 +1,10 @@
 # Linkedin Experience - 3 Caravelle 
 
 ### Info
-Software Engineer
-3 Caravelle Srl
-Apr 2024 - Present
-Remote
+- Software Engineer
+- 3 Caravelle Srl
+- Apr 2024 - Present
+- Remote
 
 ### Role
 Full-remote consulting engineer embedded across two independent enterprise product teams (3 and 6 people). Direct ownership across frontend, backend, and infrastructure. Agile workflow.
@@ -16,9 +16,7 @@ Full-remote consulting engineer embedded across two independent enterprise produ
 - Established engineering standards across CI, Docker, testing, PR workflows, technical and product documentation.
 - Acted as proactive technical and product partner to clients, driving product and UX proposals.
 
----
-
-**Skills**:
+### Skills
 - Typescript
 - Vue.js
 - Node.js

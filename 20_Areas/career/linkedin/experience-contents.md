@@ -1,11 +1,11 @@
 # Linkedin Experience - Contents
 
 ### Info
-Full-Stack Developer
-Contents.com
-Jul 2023 - Apr 2024 (10 months)
-Milan, Lombardy, Italy
-Hybrid
+- Full-Stack Developer
+- Contents.com
+- Jul 2023 - Apr 2024
+- Milan, Lombardy, Italy
+- Hybrid
 
 ### Role
 Full-stack developer in a 20+ person cross-functional and international. Worked across the core SaaS product and a separate Enterprise/whitelabel platform, owning both logic design and frontend architecture decisions.
