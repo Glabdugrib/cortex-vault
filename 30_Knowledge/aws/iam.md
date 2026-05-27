@@ -11,4 +11,6 @@
 - Users can belong to multiple groups
 
 ## Permissions
-- Users or Groups can be assigned JSON documents 
+- Users or Groups can be assigned JSON documents called **policies**
+- Policies define the **permissions** of the user
+- **Least privilege principle**: don't give more permissions than a user needs.
