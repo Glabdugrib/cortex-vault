@@ -5,7 +5,7 @@
 	- 9. 
 	- Sparizione header tabella: ok
 	- 7. Bug colonne volume: WIP
-	- 5. Toggle "Includi Plannings Senza Statistiche "
+	- 5. Toggle "Includi Plannings Senza Statistiche": rese righe sintetiche/zero stats con sfondo giallo per distinguerle nettamente dalle altre. Non ci sono più esempi.
 
 # HTN
 
