@@ -7,4 +7,6 @@
 - Set financial budgets
 - Optimize bills and recurring expenses
 - Build emergency fund 10.000€
-- Reach minimum pension scheme contribution
+- Reach minimum pension scheme matched contribution (2%)
+- Define large purchases/investments in near future (<5y)
+- 
