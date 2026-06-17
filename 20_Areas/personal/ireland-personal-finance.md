@@ -9,4 +9,4 @@
 - Build emergency fund 10.000€
 - Reach minimum pension scheme matched contribution (2%)
 - Define large purchases/investments in near future (<5y)
-- 
+- Define optimal personal pension contribution
