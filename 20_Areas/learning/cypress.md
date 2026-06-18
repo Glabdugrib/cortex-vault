@@ -146,7 +146,6 @@ Media priorità:
     Evidenze: [README.md](vscode-file://vscode-app/c:/Users/simon/AppData/Local/Programs/Microsoft%20VS%20Code/6928394f91/resources/app/out/vs/code/electron-browser/workbench/workbench.html), [conventions.md](vscode-file://vscode-app/c:/Users/simon/AppData/Local/Programs/Microsoft%20VS%20Code/6928394f91/resources/app/out/vs/code/electron-browser/workbench/workbench.html).
 
 Bassa priorità:
-
 1. Revisione coerenza documentazione vs implementazione (es. consenso analytics/sentry).  
     Evidenze: [README.md](vscode-file://vscode-app/c:/Users/simon/AppData/Local/Programs/Microsoft%20VS%20Code/6928394f91/resources/app/out/vs/code/electron-browser/workbench/workbench.html), [cookie-banner.provider.ts](vscode-file://vscode-app/c:/Users/simon/AppData/Local/Programs/Microsoft%20VS%20Code/6928394f91/resources/app/out/vs/code/electron-browser/workbench/workbench.html).
 
@@ -155,7 +154,6 @@ Bassa priorità:
 Stato attuale complessivo: progetto in buona salute, pronto per evoluzione continua, con alcune attività di rifinitura tecnica da pianificare nel breve.
 
 Se vuoi, nel prossimo step posso prepararti anche:
-
 1. una versione executive da condividere a stakeholder non tecnici,
 2. una backlog tecnica priorizzata in formato task (owner, effort, impatto),
 3. una checklist di hardening qualità/sicurezza pronta per PR template.
