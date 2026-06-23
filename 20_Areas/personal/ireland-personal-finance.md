@@ -10,3 +10,8 @@
 - Reach minimum pension scheme matched contribution (2%)
 - Define large purchases/investments in near future (<5y)
 - Define optimal personal pension contribution
+
+## Resources
+
+### Double taxation
+- [Reddit: double taxation](https://www.reddit.com/r/commercialisti/comments/1tsd8ia/residenza_fiscale_2025_italiairlanda_tassazione/)
